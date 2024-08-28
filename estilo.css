@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+   background-color: #ccc; 
+   height: 200px;
+   
+   /* Transforma em display flex */
+   /* Transforma em container e itens */
+   display: flex;
+   /* alinhamento vertical */
+   align-items: center;
+
+    /* alinhamento horizontal */
+    justify-content: center;
+}
+.item{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 50px;
+
+}
+
+.container2{
+    background-color: rgb(108, 108, 108);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20pc;
+}
+img{
+    height: 600px;
+    width: 375px;
+}
+
